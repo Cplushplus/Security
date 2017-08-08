@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A20E9064-F89F-344F-BC0C-C1540D4A601D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>QuynhSecurity</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\C_learningAdvance\Security\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">QuynhSecurity.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">QuynhSecurity</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\C_learningAdvance\Security\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">QuynhSecurity.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">QuynhSecurity</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\C_learningAdvance\Security\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">QuynhSecurity.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">QuynhSecurity</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\C_learningAdvance\Security\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">QuynhSecurity.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">QuynhSecurity</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/C_learningAdvance/Security/bin/Debug/QuynhSecurity.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/C_learningAdvance/Security/bin/Debug/QuynhSecurity.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/C_learningAdvance/Security/bin/Release/QuynhSecurity.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/C_learningAdvance/Security/bin/Release/QuynhSecurity.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/C_learningAdvance/Security/bin/MinSizeRel/QuynhSecurity.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/C_learningAdvance/Security/bin/MinSizeRel/QuynhSecurity.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\C_learningAdvance\Security\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/C_learningAdvance/Security/bin/RelWithDebInfo/QuynhSecurity.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/C_learningAdvance/Security/bin/RelWithDebInfo/QuynhSecurity.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\C_learningAdvance\Security\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/C_learningAdvance/Security/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+G:\Course_C\cmake-3.9.0-win64-x64\bin\cmake.exe -HF:/C_learningAdvance/Security -BF:/C_learningAdvance/Security/build --check-stamp-file F:/C_learningAdvance/Security/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/C_learningAdvance/Security/CMakeLists.txt;F:\C_learningAdvance\Security\CMakeLists.txt;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystem.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeRCInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;F:\C_learningAdvance\Security\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\C_learningAdvance\Security\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/C_learningAdvance/Security/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+G:\Course_C\cmake-3.9.0-win64-x64\bin\cmake.exe -HF:/C_learningAdvance/Security -BF:/C_learningAdvance/Security/build --check-stamp-file F:/C_learningAdvance/Security/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/C_learningAdvance/Security/CMakeLists.txt;F:\C_learningAdvance\Security\CMakeLists.txt;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystem.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeRCInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;F:\C_learningAdvance\Security\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\C_learningAdvance\Security\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/C_learningAdvance/Security/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+G:\Course_C\cmake-3.9.0-win64-x64\bin\cmake.exe -HF:/C_learningAdvance/Security -BF:/C_learningAdvance/Security/build --check-stamp-file F:/C_learningAdvance/Security/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/C_learningAdvance/Security/CMakeLists.txt;F:\C_learningAdvance\Security\CMakeLists.txt;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystem.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeRCInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;F:\C_learningAdvance\Security\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\C_learningAdvance\Security\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/C_learningAdvance/Security/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+G:\Course_C\cmake-3.9.0-win64-x64\bin\cmake.exe -HF:/C_learningAdvance/Security -BF:/C_learningAdvance/Security/build --check-stamp-file F:/C_learningAdvance/Security/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/C_learningAdvance/Security/CMakeLists.txt;F:\C_learningAdvance\Security\CMakeLists.txt;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystem.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeRCInformation.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\C_learningAdvance\Security\build\CMakeFiles\feature_tests.cxx;G:\Course_C\cmake-3.9.0-win64-x64\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;F:\C_learningAdvance\Security\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;F:\C_learningAdvance\Security\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\C_learningAdvance\Security\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\C_learningAdvance\Security\src\ADFGVXCipher.cpp"  />
+    <ClCompile Include="F:\C_learningAdvance\Security\src\QuynhObject.cpp"  />
+    <ClCompile Include="F:\C_learningAdvance\Security\src\main.cpp"  />
+    <ClInclude Include="F:\C_learningAdvance\Security\include\ADFGVXCipher.h" />
+    <ClInclude Include="F:\C_learningAdvance\Security\include\QuynhObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\C_learningAdvance\Security\build\ZERO_CHECK.vcxproj">
+      <Project>{ABB76B8F-BAA1-30FC-BF34-827D3E0EC08B}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
